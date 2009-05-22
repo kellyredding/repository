@@ -5,13 +5,13 @@ module Repository
     # the class handles joining the segments with the appropriate seperator
   
     # you should override ROOT appropriately, depending on where you want your repo located
-    ROOT ||= '/'
+    ROOT_DEFAULT = '/'
     WRITE = "w"
     READ = "r"
-    
+
     # Return the array of the repository root
     def self.root_array
-      ROOT.split(File::SEPARATOR)
+      (ROOT || ROOT_DEFAULT).split(File::SEPARATOR)
     end
     
     # Return the full file system path of the given directory or file
