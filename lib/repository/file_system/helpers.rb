@@ -6,8 +6,8 @@ module Repository
       def abbrev_file_size(size_in_bytes)
         value = size_in_bytes
         FILE_SIZE_ABBREVS.each do |abbrev|
-          return value.to_s + ' ' + abbrev if value < 1000 || abbrev == FILE_SIZE_ABBREVS.last
-          value /= 1000
+          return value.to_s + ' ' + abbrev if value < 1024 || abbrev == FILE_SIZE_ABBREVS.last
+          value /= 1024
         end
       end
 
