@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{repository}
-  s.version = "0.2.3"
+  s.version = "0.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kelredd"]
-  s.date = %q{2009-06-02}
+  s.date = %q{2009-06-24}
   s.email = %q{}
   s.extra_rdoc_files = ["README.rdoc"]
   s.files = ["README.rdoc", "Rakefile", "lib/repository", "lib/repository/file_system", "lib/repository/file_system/base.rb", "lib/repository/file_system/helpers.rb", "lib/repository/file_system.rb", "lib/repository/version.rb", "lib/repository.rb", "test/test_helper.rb", "test/unit", "test/unit/repository_test.rb"]

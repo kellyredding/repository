@@ -1,3 +1,3 @@
-$:.unshift File.dirname(__FILE__)
-require 'file_system/base'
-require 'file_system/helpers'
+Dir[File.join(File.dirname(__FILE__), "file_system" ,"*.rb")].each do |file|
+  require file
+end

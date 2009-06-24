@@ -24,12 +24,12 @@ Check out the code for more detail.
     Repository::FileSystem::ROOT = "/some/path/to/a/repo"
     
     
-    (mixes in all kinds of helper methods for dealing with files and paths at above root)
     include FileSystem
+    (mixes in all kinds of helper methods for dealing with files and paths at above root)
 
 == License
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2009 Kelly Redding
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
