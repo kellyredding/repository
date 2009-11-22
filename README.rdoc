@@ -15,7 +15,7 @@ Check out the code for more detail.
 
 == Installation
 
-    sudo gem install kelredd-repository --source http://gems.github.com
+    gem install kelredd-repository
 
 == Usage
 
