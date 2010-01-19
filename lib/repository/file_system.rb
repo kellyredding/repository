@@ -54,9 +54,8 @@ module Repository
     end
   
     # Create the specified directory and any parent dirs in the root
-    def self.mkdir(rep_dir, permission=0777)
+    def self.mkdir(rep_dir)
       FileUtils.makedirs(self.sys_path(rep_dir))
-      FileUtils.chmod(permission, self.sys_path(rep_dir))
       rep_dir
     end
     
