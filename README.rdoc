@@ -8,7 +8,7 @@ Abstracts a file storage system.
 Including FileSystem class will mix in methods for accessing a file
 system.   All path designations are made with arrays, referenced from
 a common root, where each array element corresponds to a path segment.
-The class handles joining the segments with the appropriate seperator
+The class handles joining the segments with the appropriate separator
 for the file system being used.  You should override the ROOT constant
 appropriately, depending on where you want your repository to live.
 Check out the code for more detail.
